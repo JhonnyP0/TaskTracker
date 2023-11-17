@@ -1,0 +1,28 @@
+{%load static%}
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>TaskTracker</title>
+        <link rel="stylesheet" href="{% static 'benc.css' %}">
+        <script defer src="{% static 'btsScr.js' %}"></script>
+        <script defer src="{% static 'savStat.js' %}"></script>
+        <script defer src="{% static 'sinceTk.js' %}"></script>
+    </head>
+    <body>
+
+        <div id="ct">
+            <label class="lb" id="time">.</label>
+            <label class="lb" id="sinceTk">.</label>
+        </div>
+
+        <div id="ct">
+            <label class="lb" id="label">0</label>
+        </div>
+
+        <div id="ct">
+            <button id="btp" class="bt">+</button>
+            <button id="br" class="bt">reset</button>
+            <button id="btm" class="bt">-</button>
+        </div>
+    </body>
+</html>
